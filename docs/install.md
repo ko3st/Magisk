@@ -56,4 +56,4 @@ Note that to install TWRP, you will first download the TWRP recovery image, and 
 - If you plan not to use custom recoveries, you will have to extract `RECOVERY_RAMDIS.img` from your firmware. Follow the instructions for boot image patching above, but use the `RECOVERY_RAMDIS.img` file instead of a boot image. To install the patched image back to your device, here is the fastboot command:
 `fastboot flash recovery_ramdisk /path/to/patched_boot.img`.
 Be aware you are flashing to `recovery_ramdisk`, not `boot` nor `ramdisk`!
-- You can still install custom recoveries to the `erecovery_ramdisk` partition. Boot to erecovery mode to boot into custom recovery in this case
+- You can still install custom recoveries to the `recovery_ramdisk` partition. Boot to recovery mode to boot into custom recovery in this case. 
